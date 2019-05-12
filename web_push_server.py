@@ -78,7 +78,7 @@ def error500(error_msg):
 def db_init():
     global g_mongo_manager_singleton
     if not g_mongo_manager_singleton:
-        g_mongo_manager_singleton = mongodb.MongoDB("mongodb://localhost:27017/", "web_push")
+        g_mongo_manager_singleton = mongodb.MongoDB("mongodb://34.254.61.254:27017/", "web_push")
 
 
 db_init()
